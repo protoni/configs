@@ -72,7 +72,7 @@ if(!$terminal_installed) {
 
 # Install a program using Chocolatey
 function install_program($name) {
-    $program_installed = choco list --localonly | findstr /i $name # Check if notepad++ is already installed
+    $program_installed = choco list --localonly | findstr /i $name # Check if the program is already installed
     if(!$program_installed) {
         $choco_output = Get-Command -Name choco.exe -ErrorAction SilentlyContinue # Check if chocolatey is installed
         if($choco_output) {
