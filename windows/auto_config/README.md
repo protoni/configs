@@ -9,6 +9,7 @@ De-bloat windows 10 and install basic apps with a powershell script
 3. run: `./install_system.ps1`
 
 ## Functionality
+- **WIN11** Disable 'show more options' when right clicking
 - Install fonts ( glass_TTY_VT220.ttf )
 - Install .NET Core
 - Install Windows Desktop Framework Packages
