@@ -25,6 +25,7 @@ De-bloat windows 10 and install basic apps with a powershell script
 - Install OpenSSL
 - Install Keepass
 - Install Firefox
+- Install Visual Studio
 - Install Python
 - Enable file extensions in folders
 - Turn off telemetry and diagnostics data collecting services
