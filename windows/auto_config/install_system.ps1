@@ -129,6 +129,13 @@ install_program 'keepass'
 # Install Firefox
 install_program 'firefox'
 
+# Install Visual studio
+echo "Installing Visual Studio.."
+cd install_vs
+& ".\install_vs.ps1"
+echo "Visual Studio installed!"
+cd ..
+
 # Check that python is installed
 function check_python {
     $installed = $FALSE
