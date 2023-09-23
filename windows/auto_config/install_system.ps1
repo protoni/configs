@@ -136,6 +136,21 @@ cd install_vs
 echo "Visual Studio installed!"
 cd ..
 
+# Install Docker
+echo "Installing Docker.."
+cd install_docker
+& ".\install_docker.ps1"
+echo "Docker installed!"
+cd ..
+
+# Install VMs
+echo "Installing Virtual machines.."
+cd install_vm
+& ".\install-ubuntu-vm.ps1"
+& ".\install-win10-vm.ps1"
+echo "Virtual machines installed!"
+cd ..
+
 # Check that python is installed
 function check_python {
     $installed = $FALSE

@@ -26,7 +26,11 @@ De-bloat windows 10 and install basic apps with a powershell script
 - Install Keepass
 - Install Firefox
 - Install Visual Studio
+- Install Docker
 - Install Python
+- Install Virtual machines
+  - Install Win10 Hyper-V VM
+  - Install Ubuntu 22.04 Virtualbox VM
 - Enable file extensions in folders
 - Turn off telemetry and diagnostics data collecting services
 - ( Disabled ) Delete Bloatware. Might delete useful stuff as well currently
